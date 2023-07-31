@@ -9,4 +9,22 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+
+  {
+    "catppuccin/nvim",
+    name = "catppuccin",
+    config = function()
+      require("catppuccin").setup {
+        transparent_background = true,
+      }
+    end,
+  },
+
+  {
+    "windwp/nvim-ts-autotag",
+    name = "nvim-ts-autotag",
+    config= function()
+      require("nvim-ts-autotag").setup{}
+    end,
+  }
 }

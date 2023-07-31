@@ -13,5 +13,7 @@ return {
       "toml",
       "json",
     })
+
+    opts.autotag = true
   end,
 }
